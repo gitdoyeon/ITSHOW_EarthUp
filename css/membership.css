@@ -1,0 +1,47 @@
+/* 입력창 사각형 틀 */
+.login_container {
+    width: 1000px;
+    height: 500px; 
+    background-color: #F1F1F1; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 1px solid #000000; 
+    border-radius: 30px;
+}
+
+/* 입력창 정가운데 정렬 */
+.input {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+/* 간격주기 */
+.member-id,
+.member-pw,
+.member-reconfirm,
+.member-email {
+    margin-bottom: 10px; /* Add margin between input fields */
+}
+
+/* 텍스트 */
+.id,
+.pw,
+.reconfirm,
+.email {
+    font-size: 18px;
+    color: #474747;
+    margin-bottom: 8px;
+}
+
+.input-id,
+.input-pw,
+.input-reconfirm,
+.input-email {
+    width: 700px;
+    height: 45px;
+    margin-bottom: 13px
+}
