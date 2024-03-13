@@ -1,0 +1,13 @@
+/* 로그인 사각형 틀 */
+.login_container {
+    width: 1000px;
+    height: 600px;
+    background-color: #F1F1F1;
+    border: 1.32px solid #000;
+    border-radius: 30px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
