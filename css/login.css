@@ -11,6 +11,7 @@
 .input-id {
     width: 500px; 
     height: 50px; 
+    padding-left: 10px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -21,6 +22,7 @@
 .input-pw {
     width: 500px; 
     height: 50px;
+    padding-left: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,7 +30,7 @@
 }
 
 /* 로그인 버튼 */
-button {
+.loginButton {
     width: 430px;
     height: 50px;
     background-color: #6CC4A1;
@@ -39,4 +41,13 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.goMembership{
+    font-size: 15px;  
+    margin-left: 47.9%;
+    display: block; 
+    color: gray;
+    font-style: normal;
+    margin-top: 480px;
 }
